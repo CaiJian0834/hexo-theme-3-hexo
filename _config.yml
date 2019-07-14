@@ -182,10 +182,10 @@ mathjax:
 
 ##########评论设置#############
 comment:
-  on: false
+  on: true
   type: gitalk  # 评论系统：gitalk、disqus、gentie、gitment,注意：使用时，在下方对应位置进行配置
   comment_count: true  # 文章标题下方显示评论数
-  preload_comment: false  # 预加载评论区
+  preload_comment: true  # 预加载评论区
   ## false: 当点击评论条等区域时再加载评论模块
   ## true: 页面加载时加载评论区
 # 各评论系统配置 ↓↓
@@ -204,8 +204,8 @@ gentie:
 gitalk:
   githubID: CaiJian0834
   repo: CaiJian0834.github.io
-  ClientID:73b1f63588ea9c371b59
-  ClientSecret:b2116dd198efb196a42493d75dd5f05bdfa0bd87
+  ClientID: 73b1f63588ea9c371b59
+  ClientSecret: b2116dd198efb196a42493d75dd5f05bdfa0bd87
   adminUser: CaiJian0834
   distractionFreeMode: true
   language: zh-CN
